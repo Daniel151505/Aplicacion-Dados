@@ -10,5 +10,11 @@ export class AppComponent {
   dadoIzquierda = '../assets/images/dice1.png'
   dadoDerecha = '../assets/images/dice2.png'
   numero1: number;
-  nnumero2: number;
+  numero2: number;
+
+  tirarDados(): void {
+    this.numero1= Math.round(Math.random() * 5) + 1 ;
+    this.numero2= Math.round(Math.random() * 5) + 1 ;
+  }
+
 }
