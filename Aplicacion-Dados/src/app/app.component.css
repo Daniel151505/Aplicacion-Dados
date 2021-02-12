@@ -1,6 +1,6 @@
 .img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 30px;
     background-color: red;
     border-radius: 10px;
@@ -8,4 +8,16 @@
 
 span {
     background-color: green;
+}
+
+.fondo {
+    background-image: url("../assets/images/fondo-dados.jpg");
+}
+
+.centrar {
+    height: 100vh;
+}
+
+.centrarDados {
+    padding-top: 180px ;
 }
