@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Aplicacion-Dados';
+  dadoIzquierda = '../assets/images/dice1.png'
+  dadoDerecha = '../assets/images/dice2.png'
+  numero1: number;
+  nnumero2: number;
 }
