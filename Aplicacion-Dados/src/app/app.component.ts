@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'Aplicacion-Dados';
   dadoIzquierda = '../assets/images/dice1.png'
   dadoDerecha = '../assets/images/dice2.png'
-  numero1: number;
-  numero2: number;
+  numero1 = 1;
+  numero2 = 2;
 
   tirarDados(): void {
     this.numero1= Math.round(Math.random() * 5) + 1 ;
