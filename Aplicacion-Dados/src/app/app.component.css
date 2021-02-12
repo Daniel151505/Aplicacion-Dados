@@ -21,3 +21,12 @@ span {
 .centrarDados {
     padding-top: 180px ;
 }
+
+.letra {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+}
